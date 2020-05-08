@@ -4,28 +4,28 @@
         {
             "name" : "client",
             "image" : "abhay14kumar/multi-client-demo",
-            "hostName" : "client",
+            "hostname" : "client",
             "essential" : false,
             "memory": 128
         },
         {
             "name" : "server",
             "image" : "abhay14kumar/multi-server-demo",
-            "hostName" : "api",
+            "hostname" : "api",
             "essential" : false,
             "memory": 128
         },
         {
             "name" : "worker",
             "image" : "abhay14kumar/multi-worker-demo",
-            "hostName" : "worker",
+            "hostname" : "worker",
             "essential" : false,
             "memory": 128
         },
         {
             "name" : "nginx",
             "image" : "abhay14kumar/multi-nginx-demo",
-            "hostName" : "nginx",
+            "hostname" : "nginx",
             "essential" : true,
             "portMappings":[{
                 "hostPort": 80,
